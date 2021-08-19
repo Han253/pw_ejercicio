@@ -1,12 +1,61 @@
-h1 {
 
+/*ESTILOS DE ETIQUETAS*/
+
+body{
+    background-color: rgb(211, 211, 211);
+}
+
+h1 {
     color: blue;
     font-size: 20px;
 }
 
+div a{
+    text-decoration: none;
+    color:black;
+    border:solid 1px;
+    padding:10px;
+    background-color: crimson;
+    
+    
+}
 
+div a:hover{    
+    font-size: 15px;
+}
+
+/* FIN ESTILOS DE ETIQUETAS*/
+
+/*ESTILOS DE ID's*/
+#hola_mundo{
+    margin-top: 20px;
+}
+
+#parrafo_prueba{
+    border:dashed 1px;
+    padding: 15px 10px;
+} 
+
+#segundo_div{
+    background-color: brown;
+}
+
+/*FIN ESTILOS DE ID's*/
+
+/*ESTILOS DE CLASES*/
 .contenedor_parrafos{
+    text-align: center;
+    display: inline-block;
+    width: 40%;
     border:solid 2px;
     background-color: #6ec8bc;
     border-radius:8px;
+    padding: 15px;
+    box-shadow: 5px 3px rgba(104, 104, 104, 0.37);
 }
+
+.elementos{
+    margin-left: 40px;
+}
+
+/*ESTILOS DE CLASES*/
